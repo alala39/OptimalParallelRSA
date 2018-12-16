@@ -104,8 +104,3 @@ https://www.cryptopp.com/wiki/Rsa_cryptography#Encryption_Scheme_.28OAEP_using_S
 https://shader.kaist.edu/sslshader/
 https://rosettacode.org/wiki/SHA-256#C.2B.2B
 https://github.com/halide/Halide
-
-List of work:
-	Aditya Lala: Wrote the final report, wrote Halide schedules with Theo and tried to figure out the data dependencies, and researched Halide in order to understand framework and debug our code. Also wrote initial RSA encryption library that was later abandoned. OVERALL PERCENTAGE: 65%
-	Theo Adrai: Wrote the makefile, wrote Halide schedules with Aditya, and researched the Crypto++ library in order to find a better encryption/decryption library. OVERALL PERCENTAGE: 35%
-It is worth noting that understanding the underlying implementations of Halide, as well as all of the data dependencies and faults in the speedup of our project were the meat of this project. The Halide schedules were only a couple of lines a piece. This is due to the fact that each schedule is an attribute of the Halide::Func class.
